@@ -6,4 +6,4 @@ For this first version, only Elf x64 and ELF x86 are supported but more architex
 
 Enjoy ;)
 
-![](https://Octopuss78/Octopwn/res/octopwn.png)
+![](https://github.com/Octopuss78/Octopwn/blob/main/res/octopwn.png)
