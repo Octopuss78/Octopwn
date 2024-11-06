@@ -70,7 +70,10 @@ def general_info(b,path):
 
     if b.get_section_by_name('.dynamic'):
         print(f"{Fore.BLUE}[*] {Fore.WHITE}Dynamically linked\n")
-        list_libs(b)
+        try:
+            list_libs(b)
+        except:
+            pass
         list_got(b)
     else:
         print(f"{Fore.BLUE}[*] {Fore.WHITE}Statically Linked\n")
