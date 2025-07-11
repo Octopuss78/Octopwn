@@ -7,14 +7,6 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 
-#TODO:
-# option to show imported methods
-# basic mode and detailed mode
-# show permissions of sections
-# improve gadgets finding (try to use ropgadget)
-# add colors to printed text
-
-
 def list_libs(b):
     print(f"{Fore.CYAN}[+] Linked Libraries:{Style.RESET_ALL}")
     for lib in b.get_section_by_name('.dynamic'):
